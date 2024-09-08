@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('beans.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    background-color: #d4a373;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #7a534a;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.menu-section {
+    text-align: left;
+    font-size: 18px;
+}
+
+.menu-section .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer:hover a{
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-top: 5px;
+}
